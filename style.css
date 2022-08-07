@@ -1,0 +1,84 @@
+#inputbox{
+    padding: 30px;
+    margin: 20px 5vw 65px 5vw;
+    width: 85vw;
+    height: auto;
+    background: linear-gradient(45deg, rgb(57, 219, 247),rgb(255, 120, 233));
+    font-size: 2rem;
+}
+
+
+#inputbox input{
+    margin-left: 15%;
+    margin-right: 30%;
+    height: 35px;
+    width: 30%;
+    font-size: 1.75rem;
+    border: none;
+}
+
+
+#inputbox button{
+    font-size: 1.2rem;
+    height: 35px;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+}
+
+#inputbox button:hover{
+    border: 2px solid blue;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+#counterbox{
+    background-color: rgba(0, 0, 0, 0.676);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 150px;
+    margin-left: 20vw;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.counter-container{
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box{
+    background-color: white;
+    border-top: 2px solid black;
+    width: 50px;
+    height: 50px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+span{
+    display: block;
+}
+
+.next{
+    position: absolute;
+    top: 50px;
+}
+
+.animate{
+    transition: all 0.5s;
+    top: 0;
+}
