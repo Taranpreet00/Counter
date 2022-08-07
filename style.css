@@ -82,3 +82,32 @@ span{
     transition: all 0.5s;
     top: 0;
 }
+
+@media screen and (max-width: 700px){
+    #inputbox{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #inputbox input{
+        display: block;
+        margin-left: 30%;
+        margin-bottom: 15px;
+    }
+
+    #inputbox button{
+        margin-left: 30%;
+    }
+
+    #counterbox{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #inputbox button{
+        margin-left: 27%;
+    }
+}
