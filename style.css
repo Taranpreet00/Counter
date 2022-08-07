@@ -1,5 +1,6 @@
 #inputbox{
     padding: 30px;
+    box-sizing: border-box;
     margin: 20px 5vw 65px 5vw;
     width: 85vw;
     height: auto;
